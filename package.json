@@ -15,5 +15,9 @@
     },
     "author": "AnotherPillow",
     "license": "MIT",
-    "private": false
+    "private": false,
+    "repository": {
+        "type": "git",
+        "url": "github.com/AnotherPillow/stardew-event-scripter"
+    }
 }
