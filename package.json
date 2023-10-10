@@ -1,0 +1,19 @@
+{
+    "name": "stardew-event-scripter",
+    "version": "1.0.6",
+    "description": "",
+    "main": "build/index.js",
+    "types": "build/index.d.ts",
+    "scripts": {
+        "build": "tsc --allowSyntheticDefaultImports",
+        "dev": "ts-node ./test.ts",
+        "_publish": "npm remove stardew-event-scripter && npm run build && npm publish"
+    },
+    "devDependencies": {
+        "@types/node": "^20.6.3",
+        "ts-node": "^10.9.1"
+    },
+    "author": "AnotherPillow",
+    "license": "MIT",
+    "private": false
+}
